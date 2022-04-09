@@ -1,0 +1,116 @@
+
+:root {
+    --main-section-color: rgb(255,232,220);
+    --nav-color: rgb(226, 232, 240);
+    --nav-text-color: rgb(43,43,43);
+    --bg-opacity: 1;
+}
+
+h1, h2, h3, p, pre {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+/** Nav **/
+.navigation {
+    background-color: var(--primary-color);
+    color: var(--nav-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: var(--nav-text-color);
+}
+
+.navigation .link-active {
+    font-weight: bold;
+} 
+
+/** Lists **/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.2rem;
+}
+
+/** Links **/
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+/** Sections **/
+
+.section {
+    padding: 2rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    max-width: 700px;
+    align-self: center;
+}
+
+/** Container **/
+
+.container {
+    padding: 1rem 1rem;
+}
+
+.offset-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.offset-container-outer {
+    display: block;
+    padding: 80px 0px 80px 80px;
+    margin: 0px 0px 0px 80px;
+    margin-left: 5rem;
+    padding-left: 5rem;
+    max-width: 100%;
+    width: 100%;
+}
+
+.offset-container-inner {
+    padding-right: 2.5rem;
+    max-width: 100%;
+    width: 100%;
+}
+
+.bg-warm {
+    opacity: var(--bg-opacity);
+    background-color: var(--main-section-color);
+
+}
+
+.main {
+    display: block;
+}
+
+/** Heading **/
+
+.main-heading {
+     margin-left: -8rem;
+     margin-bottom: 4rem;
+
+}
